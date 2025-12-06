@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Insurance Brokers Pvt Ltd - Your Trusted Insurance Partner</title>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+    <link rel="shortcut icon" href="assets/favicon_io/favicon.ico">
+    
+    <link rel="stylesheet" href="styles-rishabh.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="assets/logo-rishabh.png" alt="Rishabh Insurance Logo" id="header-logo" />
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <h1 class="hero-title">
+                <span class="gradient-text">RISHABH INSURANCE BROKERS PVT LTD</span>
+            </h1>
+            <p class="hero-subtitle">Secure Your Future with Trust, Expertise, and Exceptional Service</p>
+            
+            <div class="hero-badges">
+                <div class="badge">IRDAI Reg. No.-578</div>
+                <div class="badge">Direct (General) Insurance Broker</div>
+                <div class="badge">9+ Years Experience</div>
+            </div>
+            
+            <button class="cta-button" onclick="openQuoteModal()">Get a Free Insurance Quote</button>
+            
+            <p class="license-period">Period of License: 14/10/2025 - 13/10/2028</p>
+        </div>
+    </section>
+
+    <!-- Insurance Partners Section -->
+    <section class="partners-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Insurance Partners</h2>
+                <!-- <p>From start to end, your safety is our shared promise</p> -->
+            </div>
+            <div class="partners-marquee">
+                <div class="marquee-track">
+                    <div class="partner-logo"><img src="assets/aditya-birla.png" alt="Aditya Birla"></div>
+                    <div class="partner-logo"><img src="assets/axis-max-life.png" alt="Axis Max Life"></div>
+                    <div class="partner-logo"><img src="assets/bajaj-allianz.png" alt="Bajaj Allianz"></div>
+                    <div class="partner-logo"><img src="assets/bandhan-life.png" alt="Bandhan Life"></div>
+                    <div class="partner-logo"><img src="assets/care-health.svg" alt="Care Health"></div>
+                    <div class="partner-logo"><img src="assets/chola.png" alt="Cholamandalam MS General Insurance"></div>
+                    <div class="partner-logo"><img src="assets/digit.png" alt="Digit"></div>
+                    <div class="partner-logo"><img src="assets/sbi-life.png" alt="SBI Life Insurance Co. Ltd"></div>
+                    <div class="partner-logo"><img src="assets/generali-logo.svg" alt="Future Generali"></div>
+                    <div class="partner-logo"><img src="assets/hdfc-ergo.jpeg" alt="HDFC Ergo"></div>
+                    <div class="partner-logo"><img src="assets/icici-lombard.png" alt="ICICI Lombard"></div>
+                    <div class="partner-logo"><img src="assets/aditya-birla-life.png" alt="Aditya Birla Sun Life Insurance Co Ltd"></div>
+                    <div class="partner-logo"><img src="assets/kotak-life.png" alt="Kotak Life"></div>
+                    <div class="partner-logo"><img src="assets/lic.png" alt="Life Insurance Corporation (LIC)"></div>
+                    <div class="partner-logo"><img src="assets/liberty.png" alt="Liberty General Insurance"></div>
+                    <div class="partner-logo"><img src="assets/magma.png" alt="Magma HDI General Insurance"></div>
+                    <div class="partner-logo"><img src="assets/manipal-cigna.png" alt="Manipal Cigna Health Insurance Company"></div>
+                    <div class="partner-logo"><img src="assets/new-india.png" alt="The New India Assurance"></div>
+                    <div class="partner-logo"><img src="assets/niva-bupa.png" alt="Niva Bupa"></div>
+                    <div class="partner-logo"><img src="assets/pnb-metlife.png" alt="PNB MetLife"></div>
+                    <div class="partner-logo"><img src="assets/raheja-qbe.png" alt="Raheja QBE General Insurance Company Limited"></div>
+                    <div class="partner-logo"><img src="assets/reliance-general.png" alt="Reliance General"></div>
+                    <div class="partner-logo"><img src="assets/hdfc-life.png" alt="HDFC Life"></div>
+                    <div class="partner-logo"><img src="assets/icici-prudential.png" alt="ICICI Prudential"></div>
+                    <div class="partner-logo"><img src="assets/royal-sundaram.png" alt="Royal Sundaram General Insurance"></div>
+                    <div class="partner-logo"><img src="assets/sbi-general.svg" alt="SBI General Insurance (Alternate Logo)"></div>
+                    <div class="partner-logo"><img src="assets/star-health.png" alt="Star Health Insurance"></div>
+                    <div class="partner-logo"><img src="assets/tata-aig.png" alt="Tata AIG"></div>
+                    <div class="partner-logo"><img src="assets/zuno.png" alt="Zuno (Formerly Edelweiss General Insurance)"></div>
+                    <div class="partner-logo"><img src="assets/zurich-kotak.png" alt="Zurich Kotak"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title-large">About Rishabh Insurance Brokers Pvt Ltd</h2>
+            <h3 class="section-subtitle-red">Award-Winning Insurance Solutions. Honest Advice.<br>Lifelong Support.</h3>
+            
+            <div class="about-content">
+                <p>Founded in 2005, Rishabh Insurance Brokers Pvt Ltd blends experience, reliability, and innovation to protect individuals, SMEs, corporates, and new-age businesses across India. Our leadership—Mr. Arun Kumar Jain and Mr. Praveen Kumar Jain—believe insurance should work for you, not just on paper but at every risk you face and every claim you make.</p>
+                
+                <p>From Delhi to every corner of India, our team delivers clear advice, strong relationships with all major insurers, fast claims, and personal attention—because you deserve a broker who sees you as more than a policyholder.</p>
+                
+                <p class="highlight-text">IRDAI-Regd | 9 Years | 5,000+ Clients | 9 Sectors Served</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Directors Section -->
+    <section class="directors-section">
+        <div class="container">
+            <h2 class="section-title-blue">Meet Our Directors</h2>
+            
+            <div class="directors-grid">
+                <div class="director-card">
+                    <div class="director-image">
+                        <img src="assets/review-male.png" alt="Mr Arun Kumar Jain">
+                    </div>
+                    <h3 class="director-name">Mr Arun Kumar Jain</h3>
+                    <p class="director-title">Director</p>
+                    <p class="director-bio">"Retired from National Insurance Company Ltd. 40+ years experience in general insurance."</p>
+                    <a href="#" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+                <div class="director-card">
+                    <div class="director-image">
+                        <img src="assets/review-male.png" alt="Mr Praveen Kumar Jain">
+                    </div>
+                    <h3 class="director-name">Mr Praveen Kumar Jain</h3>
+                    <p class="director-title">Director</p>
+                    <p class="director-bio">"Retired from National Insurance Company Ltd. 40+ years leading in general insurance risk and claims."</p>
+                    <a href="#" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve Section -->
+    <section class="industries-section">
+        <div class="container">
+            <h2 class="section-title-blue">Industries We Serve</h2>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Automobile</h3>
+                    <p>Risk & asset solutions for auto trade, dealerships, fleets.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Health</h3>
+                    <p>Hospitals and healthcare networks, patient safety coverage.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Retail</h3>
+                    <p>Shops, chains, and retail logistics.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Logistics</h3>
+                    <p>Warehousing, freight, transport, supply chain.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Infrastructure</h3>
+                    <p>Contractors, power & engineering projects.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>SMEs</h3>
+                    <p>SME firms and growth businesses, staff & asset protection.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Trade</h3>
+                    <p>Import/export, trading companies, business credit.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>IT & Tech</h3>
+                    <p>SaaS, IT/BPO, E-commerce, and startups.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="why-choose-grid">
+                <div class="why-choose-item">
+                    <div class="icon-wrapper red">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="content-wrapper">
+                        <h3>IRDAI Licensed, Pan-India Network</h3>
+                        <p>Recognized by India's regulator, trusted by thousands across the country.</p>
+                    </div>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="icon-wrapper blue">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="content-wrapper">
+                        <h3>Fast, Responsive Claims & Support</h3>
+                        <p>Quick real-world assistance from a team that truly cares about outcomes.</p>
+                    </div>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="icon-wrapper green">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="content-wrapper">
+                        <h3>Personalized Advisory, Not Just Products</h3>
+                        <p>Policy solutions tailored to your needs, not just generic sales.</p>
+                    </div>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="icon-wrapper orange">
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                    <div class="content-wrapper">
+                        <h3>Serving India's Oldest & Fastest Growing Sectors</h3>
+                        <p>Experience across auto, health, logistics, trade, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Insurance Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title-red">Our Insurance Services</h2>
+            
+            <!-- Personal Insurance -->
+            <div class="service-category">
+                <h3 class="category-title">PERSONAL INSURANCE</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-heartbeat service-icon blue"></i>
+                        <div class="service-content">
+                            <h4>Health Insurance</h4>
+                            <p>Comprehensive coverage for individuals and families.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-car service-icon blue"></i>
+                        <div class="service-content">
+                            <h4>Motor Insurance</h4>
+                            <p>Car, bike & commercial vehicle protection.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-shield-alt service-icon blue"></i>
+                        <div class="service-content">
+                            <h4>Personal Accident Cover</h4>
+                            <p>Accident, disability, and death cover.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-plane service-icon blue"></i>
+                        <div class="service-content">
+                            <h4>Travel Insurance</h4>
+                            <p>Trip, medical, and baggage cover worldwide.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-home service-icon blue"></i>
+                        <div class="service-content">
+                            <h4>Property Insurance</h4>
+                            <p>Home, flat, shop, office, fire/burglary.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-paw service-icon blue"></i>
+                        <div class="service-content">
+                            <h4>Pet Insurance</h4>
+                            <p>Medical care for your pets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Insurance -->
+            <div class="service-category">
+                <h3 class="category-title">BUSINESS INSURANCE</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-briefcase service-icon orange"></i>
+                        <div class="service-content">
+                            <h4>Business Insurance</h4>
+                            <p>SME, office, retail, and commercial packages.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-users service-icon orange"></i>
+                        <div class="service-content">
+                            <h4>Group/Employee Plans</h4>
+                            <p>Employee or group benefit programs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-store service-icon orange"></i>
+                        <div class="service-content">
+                            <h4>Shopkeepers' Insurance</h4>
+                            <p>Protection for shop owners and stores.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-calendar-alt service-icon orange"></i>
+                        <div class="service-content">
+                            <h4>Event Insurance</h4>
+                            <p>Risk coverage for weddings, events, & shows.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-industry service-icon orange"></i>
+                        <div class="service-content">
+                            <h4>Engineering/Plant Insurance</h4>
+                            <p>Machinery, construction, contractor's all-risk.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Specialty & Advanced -->
+            <div class="service-category">
+                <h3 class="category-title">SPECIALTY & ADVANCED</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-truck service-icon gray"></i>
+                        <div class="service-content">
+                            <h4>Transit Insurance</h4>
+                            <p>Coverage for goods in transit, marine/cargo risk.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-credit-card service-icon gray"></i>
+                        <div class="service-content">
+                            <h4>Trade Credit Insurance</h4>
+                            <p>Receivables, business non-payment risk.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-balance-scale service-icon gray"></i>
+                        <div class="service-content">
+                            <h4>Liability Insurance</h4>
+                            <p>General, professional, product, directors & officers liability.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-lock service-icon gray"></i>
+                        <div class="service-content">
+                            <h4>Surety Bond</h4>
+                            <p>Bank guarantee substitutes for contracts or trade.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-bug service-icon gray"></i>
+                        <div class="service-content">
+                            <h4>Cyber Insurance</h4>
+                            <p>Protection from cyber risks – personal, business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="assets/logo-rishabh.png" alt="Rishabh Insurance" class="footer-logo">
+                    <p class="footer-address">
+                        202, Second Floor, D-Mall,<br>
+                        Netaji Subhash Place, Delhi: 110034<br>
+                        Phone: 9266339295, 011-42133601<br>
+                        Email: info@ribpl.in
+                    </p>
+                </div>
+                
+                <div class="footer-right">
+                    <p><strong>IRDAI Reg. No.-578 | Category: Direct (General) Insurance Broker</strong></p>
+                    <p>IRDAI Registration No.: 578</p>
+                    <p>Category: Direct (General) Insurance Broker</p>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <a href="mailto:info@ribpl.in"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/company/rishabh-insurance-broker-private-limited" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rishabh Insurance Brokers Pvt Ltd. All Rights Reserved. | <a href="privacy-policy.html" class="footer-link">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919654023654" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+    </a>
+
+    <!-- Quote Modal -->
+    <div class="modal-backdrop" id="quoteModal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="quoteModalTitle">
+            <button class="modal-close" aria-label="Close" onclick="closeQuoteModal()">×</button>
+            <h3 id="quoteModalTitle">Get a Free Insurance Quote</h3>
+            <form id="quoteForm" novalidate>
+                <label>
+                    Name
+                    <input type="text" name="name" required placeholder="Your full name">
+                </label>
+                <label>
+                    Mobile Number
+                    <input type="tel" name="mobile" required placeholder="98XXXXXXXXXX" maxlength="10">
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" required placeholder="your@email.com">
+                </label>
+                <label>
+                    Insurance Type
+                    <select name="insurance_type" required>
+                        <option value="">Select insurance type</option>
+                        <option>Health Insurance</option>
+                        <option>Motor Insurance</option>
+                        <option>Personal Accident Cover</option>
+                        <option>Travel Insurance</option>
+                        <option>Property Insurance</option>
+                        <option>Pet Insurance</option>
+                        <option>Business Insurance</option>
+                        <option>Group/Employee Plans</option>
+                        <option>Shopkeepers' Insurance</option>
+                        <option>Event Insurance</option>
+                        <option>Engineering/Plant Insurance</option>
+                        <option>Transit Insurance</option>
+                        <option>Trade Credit Insurance</option>
+                        <option>Liability Insurance</option>
+                        <option>Surety Bond</option>
+                        <option>Cyber Insurance</option>
+                    </select>
+                </label>
+                <button class="btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Navigation
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Quote Modal Functions
+        function openQuoteModal() {
+            document.getElementById('quoteModal').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeQuoteModal() {
+            document.getElementById('quoteModal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('quoteModal');
+            if (event.target === modal) {
+                closeQuoteModal();
+            }
+        }
+
+        // Form submission
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest! We will contact you shortly.');
+            closeQuoteModal();
+            this.reset();
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Partners marquee - duplicate logos for seamless scroll
+        const track = document.querySelector('.partners-marquee .marquee-track');
+        if (track) {
+            // Clone all children to make a continuous loop
+            const logos = Array.from(track.children);
+            logos.forEach(logo => {
+                const clone = logo.cloneNode(true);
+                clone.classList.add('clone');
+                track.appendChild(clone);
+            });
+        }
+    </script>
+</body>
+</html>
+
