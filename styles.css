@@ -2461,7 +2461,7 @@ html {
     display: inline-flex;
     align-items: center;
     gap: 24px;
-    animation: marquee-scroll 30s linear infinite;
+    animation: marquee-scroll 45s linear infinite;
     padding: 6px 0;
 }
 .partner-logo {

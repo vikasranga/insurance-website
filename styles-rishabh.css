@@ -147,6 +147,8 @@ body {
     font-weight: 600;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .cta-button:hover {
@@ -579,6 +581,39 @@ body {
     color: var(--text-dark);
     line-height: 1.8;
     font-size: 0.95rem;
+}
+
+.footer-sitemap {
+    color: var(--text-dark);
+}
+
+.footer-sitemap h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.footer-sitemap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-sitemap ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-sitemap ul li a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.footer-sitemap ul li a:hover {
+    color: var(--primary-blue);
+    text-decoration: underline;
 }
 
 .footer-right {
