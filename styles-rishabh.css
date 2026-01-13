@@ -514,6 +514,14 @@ body {
     align-items: flex-start;
     gap: 1rem;
     transition: all 0.3s;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a.service-card {
+    text-decoration: none;
+    color: inherit;
 }
 
 .service-card:hover {
@@ -521,22 +529,16 @@ body {
     transform: translateY(-2px);
 }
 
+a.service-card:hover {
+    text-decoration: none;
+}
+
 .service-icon {
-    font-size: 1.75rem;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
     flex-shrink: 0;
     margin-top: 0.25rem;
-}
-
-.service-icon.blue {
-    color: var(--primary-blue);
-}
-
-.service-icon.orange {
-    color: var(--primary-orange);
-}
-
-.service-icon.gray {
-    color: var(--dark-gray);
 }
 
 .service-content {
